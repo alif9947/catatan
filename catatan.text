@@ -1,0 +1,11 @@
+CREATE TABLE register_tabel(
+    id INT(11) AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR(225) NOT NULL,
+    absen INT(11) NOT NULL,
+    kelas VARCHAR(50) NOT NULL,
+    email VARCHAR(225) NOT NULL,
+    telepon VARCHAR(15) NOT NULL,
+    alamat TEXT NOT NULL,
+    tanggal_daftar TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    
+    )
